@@ -1,7 +1,7 @@
 # Linux System Update Script
-Basic Shell Script to Update your Linux OS
+Basic Shell Script to Update your Linux OS Programm's
 
-Updates run Updates a bit easyier and faster with this Script.
+Updates done a bit easier and faster with this Script.
 
 #### Get it:
 
