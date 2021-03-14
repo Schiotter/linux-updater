@@ -8,6 +8,8 @@ Updates run Updates a bit easyier and faster with this Script.
 ```bash
 git clone https://github.com/schiotter/linux-updater.git
 
+cd linux-updater
+
 chmod +x updater.sh
 
 sudo ./updater.sh
