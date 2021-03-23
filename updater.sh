@@ -32,9 +32,9 @@ if [[ $UID != 0 ]]; then
 fi
 
 # Ask 
-text_wh "Update now? [y/n]"
-read answer
-if [ "$answer" == "y" ]
+read -p "Update now? [y/n] " -n 1 answer
+echo "" # NewLine
+if [[ $answer =~ ^[Yy]$ ]]
     then
 
         #Update
