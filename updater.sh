@@ -33,7 +33,6 @@ fi
 
 # Ask 
 read -p "Update now? [y/n] " -n 1 answer
-echo "" # NewLine
 if [[ $answer =~ ^[Yy]$ ]]
     then
 
@@ -71,5 +70,6 @@ if [[ $answer =~ ^[Yy]$ ]]
         text_grn "\n\nUpdater finished"
         text_brn "\n$(uname -vrom)":
     else
+    	echo "" # NewLine
         text_red "Canceled!"
 fi
