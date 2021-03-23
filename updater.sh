@@ -27,7 +27,7 @@ function text_wh(){
 if [[ $UID != 0 ]]; then
 	text_red "Can't run the Updater!"
 	text_wh "Please run the Updater with Super Cow Powers:"
-	text_brn "sudo $0 $*"
+	text_brn "sudo $0 $* or sudo !!"
 	exit 1
 fi
 
