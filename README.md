@@ -1,5 +1,5 @@
 # Linux System Update Script
-Basic Shell Script to Update your Linux OS Programm's
+Basic Shell Script to Update your Debian-Based Linux OS Programm's
 
 Updates done a bit easier and faster with this Script.
 
