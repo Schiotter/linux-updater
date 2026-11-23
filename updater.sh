@@ -63,6 +63,16 @@ if [[ $answer =~ ^[Yy]$ ]]
 		exit
 fi
 
+read -p "Do an System Upgrade now? [y/n] " -n 1 answer_os
+if [[ $answer_os =~ ^[Yy]$ ]]
+    then
+	    text_blu "\n\napt-get dist-upgrade...\n"
+        exec "apt-get dist-upgrade -y"
+	else
+        text_red "\nexecution canceled"
+		exit
+fi
+
 #Finished
 text_grn "\n\nfinished"
 OS_NAME=$(grep -oP '(?<=^NAME=).+' /etc/os-release | tr -d '"')
